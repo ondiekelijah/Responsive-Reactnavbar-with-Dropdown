@@ -1,0 +1,45 @@
+.drop-d-menu {
+  position: absolute;
+  top: 80px;
+  list-style: none;
+  text-align: start;
+  right: 14px;
+  margin: 0;
+  padding: 10px 0;
+  background: #fff;
+  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  transition: 0.3s;
+  border-radius: 4px;
+
+}
+
+.drop-d-menu li {
+  cursor: pointer;
+  min-width: 200px;
+  font-size: 15px;
+  text-transform: none;
+  font-weight: 600;
+}
+
+.drop-d-menu li:hover {
+  color: #5cabff;
+}
+
+.drop-d-menu.clicked {
+  display: none;
+}
+
+.drop-d-link {
+  display: block;
+  height: 100%;
+  width: 100%;
+  text-decoration: none;
+  color: #000;
+  padding: 16px;
+}
+
+@media screen and (max-width: 960px) {
+  .bi-arrow-down {
+    display: none;
+  }
+}
