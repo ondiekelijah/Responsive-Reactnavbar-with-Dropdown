@@ -1,16 +1,16 @@
 export const MenuItems = [
   {
-    title: 'Porium',
+    title: 'Item 1',
     path: '/learn',
     cName: 'drop-d-link'
   },
   {
-    title: 'Gitcoin quests',
+    title: 'Item 2',
     path: '/learn',
     cName: 'drop-d-link'
   },
   {
-    title: 'Hackathon',
+    title: 'Item 3',
     path: '/learn',
     cName: 'drop-d-link'
   }
